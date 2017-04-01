@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LinusForumTipsDesktop.Settings;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,15 @@ namespace LinusForumTipsDesktop.Pages
         public LicenseView()
         {
             InitializeComponent();
+
+            if(Preference.Default.Language == "English")
+            {
+                licenseBrowser.Address = URLs.Default.englishLicenseURL;
+            }
+            else if(Preference.Default.Language == "Korean")
+            {
+                licenseBrowser.Address = URLs.Default.koreanLicenseURL;
+            }
         }
     }
 }

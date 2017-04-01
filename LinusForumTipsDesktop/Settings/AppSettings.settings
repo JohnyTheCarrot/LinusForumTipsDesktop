@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="Version" Type="System.String" Scope="User">
-      <Value Profile="(Default)">0.1.0 Alpha</Value>
+      <Value Profile="(Default)">0.1.0.0</Value>
     </Setting>
     <Setting Name="BuildDate" Type="System.String" Scope="User">
       <Value Profile="(Default)">9th March 2017</Value>

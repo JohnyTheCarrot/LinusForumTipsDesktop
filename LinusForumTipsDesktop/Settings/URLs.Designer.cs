@@ -22,5 +22,30 @@ namespace LinusForumTipsDesktop.Settings {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://raw.githubusercontent.com/LinusForumTips/LinusForumTipsDesktop/master/lic" +
+            "ense-localization/license_korean.md")]
+        public string koreanLicenseURL {
+            get {
+                return ((string)(this["koreanLicenseURL"]));
+            }
+            set {
+                this["koreanLicenseURL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://github.com/LinusForumTips/LinusForumTipsDesktop/blob/master/license.md")]
+        public string englishLicenseURL {
+            get {
+                return ((string)(this["englishLicenseURL"]));
+            }
+            set {
+                this["englishLicenseURL"] = value;
+            }
+        }
     }
 }

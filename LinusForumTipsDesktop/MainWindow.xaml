@@ -4,5 +4,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LinusForumTipsDesktop"
+         xmlns:cefSharp="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
         mc:Ignorable="d"
-        Title="LinusForumTips Desktop" Height="828.4" Width="1060.024"/>
+        Title="LinusForumTips Desktop" Height="828.4" Width="1060.024">
+
+    <Grid>
+        <cefSharp:ChromiumWebBrowser Grid.Row="0"  Address="" Name="mainBrowser">
+
+        </cefSharp:ChromiumWebBrowser>
+    </Grid>
+
+</Window>

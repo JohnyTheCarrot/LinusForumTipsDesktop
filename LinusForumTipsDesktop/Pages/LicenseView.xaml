@@ -10,9 +10,8 @@
       xmlns:cefSharp="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf">
 
     <Grid>
-    <cefSharp:ChromiumWebBrowser Grid.Row="0">
-        
-        
+    <cefSharp:ChromiumWebBrowser Grid.Row="0" Name="licenseBrowser">
+               
     </cefSharp:ChromiumWebBrowser>
     </Grid>
 </Page>

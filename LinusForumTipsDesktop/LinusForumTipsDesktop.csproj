@@ -96,6 +96,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Settings\AppSettings.cs" />
+    <Compile Include="Settings\URLs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>URLs.settings</DependentUpon>
+    </Compile>
     <Page Include="Pages\LicenseView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -147,6 +153,10 @@
     <None Include="Settings\Preference.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Preference.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Settings\URLs.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>URLs.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>

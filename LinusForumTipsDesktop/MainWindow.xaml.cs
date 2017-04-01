@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LinusForumTipsDesktop.Settings;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,8 @@ namespace LinusForumTipsDesktop
         public MainWindow()
         {
             InitializeComponent();
+
+            Title += " " + AppSettings.Default.Version;
         }
     }
 }

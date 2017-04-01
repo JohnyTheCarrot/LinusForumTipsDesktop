@@ -6,9 +6,13 @@
       xmlns:local="clr-namespace:LinusForumTipsDesktop.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="229.165" d:DesignWidth="235.986"
-      Title="LicenseView">
+      Title="LicenseView"
+      xmlns:cefSharp="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf">
 
-    <Grid Margin="0,0,-349,-258.857">
-        <TextBox x:Name="text" HorizontalAlignment="Left" Height="464" Margin="6,10,0,0" TextWrapping="Wrap" Text="LinusForumTips License &#xD;&#xA;Copyright (c) 2017 AluminiumTech&#xD;&#xA;&#xD;&#xA;Permission is hereby granted, free of charge, to ANY person obtaining a copy of this software and associated documentation (the Software) to deal in the software without ANY restrictions and :&#xD;&#xA;* the rights to use the source code in ANY project.&#xD;&#xA;* the rights to copy, merge and/or modify the source code.&#xD;&#xA;* the rights to publish and/or distribute the original source code AT NO COST WHATSOEVER.&#xD;&#xA;* the rights to publish and/or distribute ANY MODIFIED source code AT NO COST WHATSOEVER.&#xD;&#xA;&#xD;&#xA; An Individual or Organization which chooses to use, copy, merge, modify, publish or distribute the software is free to do so subject to the above agreement and subject to the conditions stated below.  &#xD;&#xA;&#xD;&#xA;The above copyright notice and this permission notice MUST be included in ALL copies of the Software.  &#xD;&#xA;&#xD;&#xA;The software is provided AS IS and is without any kind, express or implied warranty. This includes but is not limited to warranties of merchantability, fitness for a particular purpose and noninfingement.&#xD;&#xA;&#xD;&#xA;In NO EVENT shall the Authors or Copyright holders be liable for ANY claims, damages or other liabilities whether in an action of contract, tort or otherwise.  &#xD;&#xA;&#xD;&#xA;The individual or organization MUST provide the URL of the original repository on the website or homepage of their project. IF the individual or organization does not contain a website for their project, they MUST provide the link available in a ReadMe textfile alongside any prebuilt binaries for their application or services.  &#xD;&#xA;&#xD;&#xA;The Authors of Linus Forum Tips are in no way affiliated with Linus Media Group Inc and are not responsible for the content they produce." VerticalAlignment="Top" Width="569"/>
+    <Grid>
+    <cefSharp:ChromiumWebBrowser Grid.Row="0">
+        
+        
+    </cefSharp:ChromiumWebBrowser>
     </Grid>
 </Page>

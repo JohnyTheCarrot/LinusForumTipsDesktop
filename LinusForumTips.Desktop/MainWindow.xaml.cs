@@ -1,5 +1,4 @@
-﻿using LinusForumTipsDesktop.Settings;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LinusForumTipsDesktop
+namespace LinusForumTips.Desktop
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -24,8 +23,6 @@ namespace LinusForumTipsDesktop
         public MainWindow()
         {
             InitializeComponent();
-
-            Title += " " + AppSettings.Default.Version;
         }
     }
 }

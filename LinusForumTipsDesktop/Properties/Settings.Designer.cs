@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LinusForumTips.Desktop.Properties
+namespace LinusForumTipsDesktop.Properties
 {
 
 

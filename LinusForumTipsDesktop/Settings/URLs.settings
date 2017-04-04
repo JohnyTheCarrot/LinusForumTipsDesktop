@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LinusForumTipsDesktop.Settings" GeneratedClassName="URLs">
+  <Profiles />
+  <Settings>
+    <Setting Name="BugReportURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://github.com/LinusForumTips/LinusForumTipsDesktop/issues/</Value>
+    </Setting>
+    <Setting Name="CheckForUpdatesURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://github.com/LinusForumTips/LinusForumTipsDesktop/releases/</Value>
+    </Setting>
+    <Setting Name="StartPage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://github.com/AluminiumTech/LinusForumTips/LinusForumTipsDesktop/</Value>
+    </Setting>
+    <Setting Name="wikiURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://github.com/LinusForumTips/LinusForumTipsDesktop/wiki/</Value>
+    </Setting>
+    <Setting Name="licenseURL_English" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://raw.githubusercontent.com/LinusForumTips/LinusForumTipsDesktop/master/license.md</Value>
+    </Setting>
+    <Setting Name="lithiumClassicPage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://www.github.com/AluminiumTech/LithiumClassic/</Value>
+    </Setting>
+    <Setting Name="readme_English" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://github.com/LinusForumTips/LinusForumTipsDesktop/blob/master/README.md</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

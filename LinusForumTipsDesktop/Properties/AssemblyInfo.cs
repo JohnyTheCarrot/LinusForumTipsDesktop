@@ -5,9 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
+[assembly: AssemblyTitle("LinusForumTipsDesktop")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("LinusForumTipsDesktop")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -18,6 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("6be483de-fb22-4af2-9cc6-bf09fd87e8bd")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -56,7 +56,7 @@ namespace LinusForumTipsDesktop
                 }
                 else
                 {
-                //    Application.Run(new );
+                  Application.Run(new MainWindow.Main());
                 }
             }
             else
